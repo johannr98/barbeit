@@ -211,5 +211,5 @@ sed -i "s/mailhub=mail/mailhub=smtp.mail.com:587/" /etc/ssmtp/ssmtp.conf
 sed -i "s/#rewriteDomain=/rewriteDomain=mail.com/" /etc/ssmtp/ssmtp.conf
 
 source /run/one-context/one_env
-ssmtp yourMail@mail.com "passphrase:$PASSPHRASE\nUbuntuNutzer:$UBUNTU\nNutzerMagentoSystem:$MAGENTO_ADMIN_USERNAME\nIP:$ETH0_IP
+ssmtp yourMail@mail.com "passphrase:$PASSPHRASE\nUbuntuNutzer:$UBUNTU\nNutzerMagentoSystem:$MAGENTO_ADMIN_USERNAME\nIP:$ETH0_IP"
 
